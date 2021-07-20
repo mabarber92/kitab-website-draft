@@ -4,14 +4,13 @@ header:
   overlay_image: /images/covers/banner_data.png
   overlay_filter: rgba(40, 99, 165, 0.45)
 title:		"About our Vizualisations"
-layout:		tag
+layout:		single
 sidebar:
   nav: "corpus"
 toc: true
 toc_sticky: true
 permalink: /data/viz
-taxonomy: viz
-entries_layout: grid
+
 ---
 
 KITAB's [datasets]({{ '/data' | relative_url }}) are often large and difficult to comprehend. KITAB is, therefore, working to develop and adapt vizualisations to help the team and other researchers understand the data. Where relevant we release code and PowerBI templates for our vizualisations enabling you to adapt them for your own research, whether or not you are using KITAB's data.
@@ -37,7 +36,7 @@ This application is designed for viewing text reuse between pairs of texts. Imag
 {{ image1 | markdownify }}
 </div>
 
-This vizualisation layers a lot of types of data. The x-axis of the two graph represents each book from start to finish, divided into milestones (on text reuse and milestones, see our explanation of [passim]({{ '/methods/text-reuse#how-does-passim-work' }})). Thus, the top graph in image 1 shows Ibn Taghribirdi's *Nujum*, where 1 represents the first milestone in the book and 3745 represents the last milestone. The bottom graph in image 1 shows Ibn al-Athir's *Kamil* where 1 is the first milestone in the book and 4500 is the last. 
+This vizualisation layers a lot of types of data. Put simply, it represents each of the two works as a 300-words wide scroll where the top is on the left and the bottom on the right. Passages that are common to both works are highlighted in red. The yellow lines connect the common passages between the books. In the graphs on the top and the bottom, the works are divided into milestones (on text reuse and milestones, see our explanation of [passim]({{ '/methods/text-reuse#how-does-passim-work' }})). Thus, the top graph in image 1 shows Ibn Taghribirdi's *Nujum*, where 1 represents the first milestone in the book and 3745 represents the last milestone. The bottom graph in image 1 shows Ibn al-Athir's *Kamil* where 1 is the first milestone in the book and 4500 is the last. 
 
 Each of the red bars on the top and bottom graphs represents a milestone that contains text reuse. The height of each bar is determined by the postion of the reuse text in the milestone and its length, where the y-axis gives the position in words. For example, a bar that starts at 50 and ends 100 on the y axis, means that reuse occurs between word 50 and 100 of that milestone and that it the reuse is, therefore, 50-words long. 
 
