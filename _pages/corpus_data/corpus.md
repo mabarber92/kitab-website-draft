@@ -10,7 +10,7 @@ sidebar:
 permalink: /corpus/
 ---
 
-KITAB corpus is KITAB’s constantly evolving corpus of machine-readable (mostly) premodern Arabic texts and metadata files.
+KITAB corpus is KITAB’s constantly evolving corpus of machine-readable (mostly) premodern Arabic texts and metadata files. It is part of the larger OpenITI corpus.
 
 As such, it is the very backbone of the research KITAB seeks to advance: It is with regard to this corpus that the scholars from the humanities and the computer scientists who make up KITAB’s team have joined forces to make possible new forms of computer-aided analysis of the premodern Arabic tradition.
 
