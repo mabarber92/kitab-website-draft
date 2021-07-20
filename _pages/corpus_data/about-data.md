@@ -56,7 +56,7 @@ The metadata file can be downloaded in one of two places:
 
 ## Passim text reuse datasets
 
-A major part of our research is based on text reuse detection using the [passim algorithm]({{ '/methods/text-reuse#introducing-passim' | relative_url }}). We produce two types of passim dataset: **normal** and **aggregated**. 
+A major part of our research is based on text reuse detection using the [passim algorithm]({{ '/methods/text-reuse#introducing-passim' | relative_url }}). We run passim on our corpus every time we release a new version of the corpus. For each run, we produce two types of passim dataset: **normal** and **aggregated**. 
 
 The **normal** dataset uses passim alignments based on the milestones (the 300-word chunks into which we divide texts before running passim). In this dataset large alignments might be split across multiple milestones; this dataset is especially useful for [book-to-book visualisation]({{ '/data/viz' | relative_url }}). The **aggregated** dataset takes large alignments the cross milestones and brings them together into one alignment; this dataset is particularly useful for close reading. For more detail on the distinction between the two datasets and why we continue to produce both, see our [page on text reuse]({{ '/methods/text-reuse' | relative_url }}).
 

@@ -71,7 +71,7 @@ These decisions are subject to constant review, and we are producing alignment d
 {% capture faq_box %}
 ## Passim FAQs
 ### When does KITAB run passim?
-Passim is run at least twice every year to account for corpus changes. We do not run it more regularly because the preparation of the corpus and subsequent analysis of the data produced by passim is very time consuming. It is important for us that the corpus is prepared appropriately and that the data and subsequent analysis is checked thoroughly, to guard against potential errors.
+Passim is run at least twice every year to account for corpus changes. We do not run it more regularly because the preparation of the corpus and subsequent analysis of the data produced by passim is very time consuming. It is important for us that the corpus is prepared appropriately and that the data and subsequent analysis is checked thoroughly, to guard against potential errors. Each time passim is run, the corpus as it is at that point is released on Zenodo, so that the text reuse data can always be linked back to the state the texts were in when passim was run. See further, our explanation of [corpus releases]({{ '/corpus/use#which-corpus' | relative_url }}).
 
 ### Can I access the passim data?
 At present we are not releasing the passim data pubicly. This is because we are still developing and improving our processes for running passim and analysing its output. We hope to release the data soon, and we will do so along with a suite of applications to help researchers make the most of this data. We are currently sharing the preliminary datasets with those who are [working with us]({{ 'about/get-involved' | relative_url }}) to help expand the corpus and understand our data.
@@ -79,7 +79,7 @@ At present we are not releasing the passim data pubicly. This is because we are 
 ### Can I run passim?
 It is possible to run passim at home on a small corpus of texts. To run larger quantities of text requires a huge amount of computing power, and we run the OpenITI Corpus using a server. 
 
-Running passim is not recommended, unless you have a good familiarity with computers. Instructions for how to run passim can be found [here](https://github.com/dasmiq/passim). A development branch of passim now allows you to run passim through python and this is recommended route. For instructions, see [here](https://github.com/dasmiq/passim/tree/seriatim). {% endcapture %}
+Running passim is not recommended, unless you have a good familiarity with computers. Instructions for how to run passim can be found [here](https://github.com/dasmiq/passim). A development branch of passim now allows you to run passim through python and this is the recommended route. For instructions, see [here](https://github.com/dasmiq/passim/tree/seriatim). {% endcapture %}
 
 <div class="notice--primary">{{ faq_box | markdownify }}
 </div>
