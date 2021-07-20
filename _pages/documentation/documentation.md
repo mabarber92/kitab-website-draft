@@ -2,7 +2,7 @@
 header:
   overlay_image: /images/covers/banner_methods.png
   overlay_filter: rgba(40, 99, 165, 0.60)
-title: OpenITI documentation tag
+title: OpenITI documentation
 permalink: /docs/openITI
 layout: single
 sidebar:

@@ -3,7 +3,7 @@ main:
   - title: "About"
     url: /about/
   - title: "Corpus and Data"
-    url: /corpus/
+    url: /corpus-and-data/
   - title: "Methods"
     url: /methods
   - title: "Research"
@@ -31,6 +31,11 @@ team:
 
 corpus:
   - title: Corpus and Data
+    children:
+      - title: "Message from the team"
+        url: /corpus-and-data
+
+  - title: Corpus
     children:
       - title: "Message from the team"
         url: /corpus
