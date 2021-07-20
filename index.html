@@ -3,8 +3,8 @@ layout: splash
 header:
   overlay_color: "#2863a5"
   overlay_filter: 0.2
-title: "Knowledge Information and the Arabic Book"
-tagline: "The Website for the KITAB project"
+title: "The KITAB project"
+tagline: "Knowledge Information and the Arabic Book"
 
 pi_message:
   - image_path: /images/kitab/all_team2.jpg
@@ -25,10 +25,10 @@ all_blogs:
 corpus_search:
   - image_path: /images/covers/search_app.png
     alt: "placeholder image 2"
-    title: "Search the OpenITI corpus"
+    title: "Find a book in the OpenITI corpus"
     excerpt: 'Click the button to start searching for books in our corpus and downloading texts'
     url: "https://kitab-corpus-metadata.azurewebsites.net/"
-    btn_label: "Search for books"
+    btn_label: "Find a book"
     btn_class: "btn--primary"
 
 
@@ -84,17 +84,18 @@ corpus_search:
       <p> Read more blogs about KITAB's corpus, methods and data </p>
 
       </div>
-      <p> <a href="{{ latest_post.url }}" class="btn btn--primary">Read other blogs</a></p>
+      <p> <a href="{{ '/blogs' | relative_url }}" class="btn btn--primary">Read other blogs</a></p>
       </div>
       </div>
       
       </div>
 
+</div>
 
- 
+ {% include feature_row id="corpus_search" type="right" %}
+
 <!Code block for the twitter embed - do not change!>
 
-</div>
 <div class="feature__wrapper">
 
   
@@ -152,5 +153,5 @@ corpus_search:
 
 
 
- {% include feature_row id="corpus_search" type="right" %}
+
  
