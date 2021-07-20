@@ -56,7 +56,9 @@ The metadata file can be downloaded in one of two places:
 
 ## Passim text reuse datasets
 
-We produce two types of passim dataset: **normal** and **aggregated**. The **normal** dataset uses passim alignments based on the milestones (the logical chunks that we use to run passim). In this dataset large alignments might be split across multiple milestones. The **aggregated** dataset takes large alignments the cross milestones and brings them together into one alignment. For more detail on the distinction between the two datasets and why we continue to produce both, see our [page on text reuse]({{ '/methods/text-reuse' | relative_url }}).
+A major part of our research is based on text reuse detection using the [passim algorithm]({{ '/methods/text-reuse#introducing-passim' | relative_url }}). We produce two types of passim dataset: **normal** and **aggregated**. 
+
+The **normal** dataset uses passim alignments based on the milestones (the 300-word chunks into which we divide texts before running passim). In this dataset large alignments might be split across multiple milestones; this dataset is especially useful for [book-to-book visualisation]({{ '/data/viz' | relative_url }}). The **aggregated** dataset takes large alignments the cross milestones and brings them together into one alignment; this dataset is particularly useful for close reading. For more detail on the distinction between the two datasets and why we continue to produce both, see our [page on text reuse]({{ '/methods/text-reuse' | relative_url }}).
 
 The **normal** dataset is good for visualisation because the each alignment can be referred to based on its milestone position, which corresponds uniformly to a 300-word chunk of the text - many of our vizualisations put the milestone number on the x-axis. The **aggregate** dataset is better for understanding lengthy instances of text reuse.
 
@@ -64,7 +66,9 @@ For both of these datasets there are two forms of data:
 
 ### Alignment files
 
-If passim identifies text reuse between two books, a file is produced. A separate file is produced for both the **normal** and **aggregated** datasets. The file name takes the format of *bookid1_bookid2*. (On book IDs and the way we name the books in our corpus, see our page on [using the corpus]({{ 'corpus/use#uri-structure' | relative_url }}).) The file recording alignments between Ibn Hisham's *Sira* and al-Tabari's *Taʾrikh* would, therefore be:
+If passim identifies text reuse between two books, a file is produced. In each file, each row gives an alignment between the text pair, recording the aligned text (aligned using [Smith-Waterman]({{ '/methods/text-reuse#how-does-passim-work' | relative_url }})), the location of each alignment in the book and some statistics about each alignment. For detailed guidance on the data fields, see our [docs]().
+
+The file name takes the format of *versionID1_versionID2*. (On book IDs and the way we name the books in our corpus, see our page on [using the corpus]({{ 'corpus/use#uri-structure' | relative_url }}).) The file recording alignments between Ibn Hisham's *Sira* and al-Tabari's *Taʾrikh* would, therefore be:
 
 Shamela0009783BK1-ara1.completed_Shamela0023833-ara1.completed.csv
 {: .notice--primary}
@@ -74,11 +78,9 @@ For ease of identifying text pairs, we produce each alignment file in both direc
 Shamela0023833-ara1.completed_Shamela0009783BK1-ara1.completed.csv
 {: .notice--primary}
 
-Would be a flipped version of the same file.
+would be a flipped version of the same file.
 
-In each file, each row gives an alignment between the text pair, recording the aligned text (aligned using [Smith-Waterman]({{ '/methods/text-reuse#how-does-passim-work' | relative_url }})), the location of each alignment in the book and some statistics about each alignment. For detailed guidance on the data fields, see our [docs]().
-
-The main difference between the alignment files for **normal** and **aggregated** is that the location of **normal** alignments is given as a milestone, where for **aggregated** a milestone range is provided.
+A separate file is produced for both the **normal** and **aggregated** datasets. The main difference between the alignment files for **normal** and **aggregated** is that the location of **normal** alignments is given as a milestone, where for **aggregated** a milestone range is provided.
 
 ### Passim text reuse statistics
 
