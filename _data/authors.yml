@@ -1,7 +1,7 @@
 sarah_savant:
   name             : "Sarah Savant"
   avatar           : # path of avatar image, e.g. ""
-  bio              : 
+  bio              : "Sarah Bowen Savant is the Principle Investigator of the KITAB project. She is preparing a book, entitled, A Cultural History of the Arabic Book that explores the many ways that writers reused earlier texts to create new ones in the period spanning from 700-1500 CE."
   location         :
   email            :
   uri              :
@@ -19,8 +19,8 @@ sarah_savant:
   twitter          :
 mathew_barber:
   name             : "Mathew Barber"
-  avatar           : # path of avatar image, e.g. ""
-  bio              : 
+  avatar           : "/images/kitab/Mathew_200px.jpg"
+  bio              : "Mathew is a historian working with the KITAB team to develop and improve their visualisations and applications. He specialises in Fatimid historiography (c. tenth-twelfth centuries), its later survival and broader history-writing practices in Egypt. "
   location         :
   email            :
   uri              :
@@ -39,7 +39,7 @@ mathew_barber:
 peter_verkinderen:
   name             : "Peter Verkinderen"
   avatar           : # path of avatar image, e.g. ""
-  bio              : 
+  bio              : "Peter is a postdoctoral research fellow at the KITAB Project working on the central Islamic lands. His main expertise is in the geographical and historiographical literature of the 3rd-5th/9th-11th C. He is also working with KITAB in the development of the OpenITI corpus and tools for analyzing and visualizing textual data. "
   location         :
   email            :
   uri              :
@@ -58,7 +58,7 @@ peter_verkinderen:
 aslisho_qurboniev:
   name             : "Aslisho Qurboniev"
   avatar           : # path of avatar image, e.g. ""
-  bio              : 
+  bio              : "Aslisho is a postdoctoral research fellow at the KITAB Project working on the Islamic West. His current research focuses on the scholarly communities of the Islamic Maghrib and Khurasan down to the fourth-tenth centuries."
   location         :
   email            :
   uri              :
@@ -114,8 +114,8 @@ anjum_alam:
   twitter          :
 gowaart_van_den_bossche:
   name             : "Gowaart Van Den Bossche"
-  avatar           : # path of avatar image, e.g. ""
-  bio              : 
+  avatar           : "/images/kitab/Gowaart_200px.jpg"
+  bio              : "Gowaart Van Den Bossche is postdoctoral research fellow with the KITAB project. His research focuses on historiography, literature and manuscript culture in late medieval Egypt and Syria."
   location         :
   email            :
   uri              :
@@ -172,7 +172,7 @@ david_smith:
 lorenz_nigst:
   name             : "Lorenz Nigst"
   avatar           : # path of avatar image, e.g. ""
-  bio              : 
+  bio              : "Lorenz Nigst is an Arabist and a research associate at the KITAB Project. He is responsible for the management of the KITAB corpus."
   location         :
   email            :
   uri              :
@@ -250,6 +250,25 @@ sarah_savant_masoumeh_seydi:
   avatar           : # path of avatar image, e.g. ""
   bio              : 
   location         :
+  email            :
+  uri              :
+  flickr           :
+  facebook         :
+  github           :
+  google_plus      :
+  instagram        :
+  linkedin         :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  steam            :
+  tumblr           :
+  twitter          :
+abdul_rahman_azzam:
+  name             : "Abdul Rahman Azzam"
+  avatar           : # path of avatar image, e.g. ""
+  bio              : "With a BA and Dphil in Islamic history from Oxford University, Abdul Rahman is the author of Saladin (2008), The Other Exile (2017) and The Return of Sebastian (2021)."
+  location         : 
   email            :
   uri              :
   flickr           :

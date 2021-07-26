@@ -3,7 +3,7 @@ main:
   - title: "About"
     url: /about/
   - title: "Corpus and Data"
-    url: /corpus-and-data/
+    url: /corpus-and-data
   - title: "Methods"
     url: /methods
   - title: "Research"
