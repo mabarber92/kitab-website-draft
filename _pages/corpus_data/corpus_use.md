@@ -109,6 +109,21 @@ That is, whenever two (or more) of our identifiers overlap with regard to the ne
 <span style="color:green">0414AbuHayyanTawhidi</span>.<span style="color:blue">Basair</span>.Shamela0026423-ara1
 {: .notice--primary .text-left}
 
+{% capture except_notice %} 
+### Exceptional author IDs
+**Please note** there are some author IDs that we use in the corpus in specific cases where an author cannot be identified, where the author's death date is unknown or where the author is still alive. Please find the variants in the table below. This is constantly being reviewed by the team, so check back here for new types.
+
+ID | Meaning 
+ --- | --- 
+ 0001Quran.Mushaf (previously 0001KitabAllah.QuranKarim) | The Qurʿan 
+MuallifMajhul | Unknown author (date in URI will correspond to the period when we think the author was alive) 
+ 1450 | We use this date for authors who are still alive |
+ Pseudo- | Author URIs starting with Pseudo indicate that this is a work attributed to the author, but the attribution is not secure or disputed
+{% endcapture %}
+
+<div class="notice--warning">
+{{ except_notice | markdownify }}
+</div> 
 
 ## Metadata files.
 
