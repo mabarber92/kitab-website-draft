@@ -16,6 +16,8 @@ permalink: /about/
 
 # About the project: A Message from the PI 
 
+![Sarah-Savant](/images/kitab/sarah_savant.jpg){: .align-right} 
+
 KITAB provides a digital tool-box and a forum for discussions about Arabic texts. We wish to empower users to explore Arabic texts in completely new ways and to expand the frontiers of knowledge about one of the world’s largest and most complex textual traditions.
 
 We are leading with methods that detect how authors copied from previous works. Arabic authors frequently made use of past works, cutting them into pieces and reconstituting them to address their own outlooks and concerns. We are working to discover relationships between these texts and also the profoundly intertextual circulatory systems in which they sit. 
@@ -33,7 +35,8 @@ Thank you for your interest in KITAB and please do be in touch if you would like
 Warm regards,\
 Sarah Bowen Savant\
 Professor\
-Aga Khan University, Institute for the Study of Muslim Civilisations\
+Aga Khan University International\
+Institute for the Study of Muslim Civilisations\
 Principal Investigator\
-Knowledge, Information Technology, and the Arabic Book\
+Knowledge, Information Technology, and the Arabic Book
 

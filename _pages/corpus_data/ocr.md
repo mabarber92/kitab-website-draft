@@ -10,7 +10,7 @@ sidebar:
 permalink: /corpus/ocr
 ---
 
-KITAB also uses Optical Character Recognition (OCR) tools to further build the OpenITI/KITAB corpus.
+KITAB uses Optical Character Recognition (OCR) tools to further build the OpenITI/KITAB corpus.
 
 To this end, we have created our own OCR pipeline which is based on [Kraken](http://kraken.re/) and uses transcription models that are being trained in close collaboration with the University of Maryland, Northeastern University, and Harvard University.
 

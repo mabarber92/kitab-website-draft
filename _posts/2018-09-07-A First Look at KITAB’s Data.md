@@ -34,7 +34,7 @@ Bear with me as what follows will necessarily be a bit granular.
 
 
 
-We ran [passim]({{ site.baseurl }}{% link _pages/about-passim.md %}) — text reuse software developed by [David Smith]({{ site.baseurl }}{% link _pages/about.md %}) — on the entirety of [KITAB’s corpus](https://github.com/OpenITI/), comparing the words of each of 4,260 books to the words of every other text (\~18 million book comparisons). This process – including a 5-gram “shingling” method – involves a few simple steps repeated trillions of times as passim searches for, and aligns, common passages. Every time it found a common passage including at least 10 but up to 300 words, it created a record of the match within a file dedicated to the relationship between the two books (so, potentially \~18 million files containing billions of records).
+We ran [passim]({'/methods/text-reuse' | relative_url}) — text reuse software developed by [David Smith]({{ site.baseurl }}{% link _pages/about.md %}) — on the entirety of [KITAB’s corpus](https://github.com/OpenITI/), comparing the words of each of 4,260 books to the words of every other text (\~18 million book comparisons). This process – including a 5-gram “shingling” method – involves a few simple steps repeated trillions of times as passim searches for, and aligns, common passages. Every time it found a common passage including at least 10 but up to 300 words, it created a record of the match within a file dedicated to the relationship between the two books (so, potentially \~18 million files containing billions of records).
 
 
 

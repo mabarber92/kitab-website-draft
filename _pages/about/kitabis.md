@@ -6,10 +6,12 @@ header:
   caption: "**Photo credit**: From Book three of 'Nihāyat al-su’l' which gives instructions on using lances. Dated 773/1371 (Add. MS. 18866, f. 113r)"
 author: "sarah_savant"
 layout:		single
-classes: wide
+
 title:		"The KITABIs"
 sidebar:
   nav: "team"
+toc : true
+toc_sticky : true
 
 permalink: /about/kitabis
 ---

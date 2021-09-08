@@ -14,7 +14,7 @@ KITAB corpus is the Arabic subcorpus of the Open Islamicate Texts Initiative (Op
 
 To date, KITAB corpus comprises more than 10,200 text files plus their corresponding metadata files, most of which contain premodern works in line with KITAB’s research focus on the premodern Arabic written tradition from its origins in the second century AH/eighth century CE up to roughly the ninth century AH/fifteenth century CE.
 
-They come from a variety of sources that fall within in three major categories (for a comprehensive list of our sources, [see here](https://github.com/OpenITI/Annotation): (1) digital online libraries such as al-Maktaba al-shāmila or Shīʿa online, (2) research projects such as Graeco-Arabic Studies Corpus, the Digital Averroes Research Environment, or Ptolemaeus Arabus et Latinus, and (3) KITAB’s own Optical Character Recognition [(OCR)]({{ 'corpus/ocr' | relative_url }})-pipeline based on Kraken ([see here](http://kraken.re/) and [here](https://github.com/mittagessen/kraken)). 
+They come from a variety of sources that fall within in three major categories (for a comprehensive list of our sources, [see here](https://github.com/OpenITI/Annotation)): (1) digital online libraries such as al-Maktaba al-Shāmila or Shīʿa online, (2) research projects such as Graeco-Arabic Studies Corpus, the Digital Averroes Research Environment, or Ptolemaeus Arabus et Latinus, and (3) KITAB’s own Optical Character Recognition [(OCR)]({{ 'corpus/ocr' | relative_url }})-pipeline based on Kraken ([see here](http://kraken.re/) and [here](https://github.com/mittagessen/kraken)). 
 
 Text files are furthermore contributed by individual researchers and KITAB team members, most notably in the form of manual transcriptions of manuscripts.
 

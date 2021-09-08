@@ -58,6 +58,8 @@ corpus:
         url: /data
       - title: "About our Vizualisations"
         url: /data/viz
+      - title: "Blogs about our Vizualisations"
+        url: /data/viz-blogs      
       - title: "Use Our Applications"
         url: /data/apps
       - title: "Read more"
@@ -78,6 +80,8 @@ methods:
         url: /methods/networks
       - title: "Subgenre classification"
         url: /methods/sub-genre
+      - title: "Stylometry"
+        url: /methods/stylometry
 
   - title: What we study
     children:

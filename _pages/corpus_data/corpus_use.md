@@ -46,7 +46,7 @@ For example, walking down the aisle of our library, we would stop at the row of 
 
 On each author-book, a specific place is reserved for each book written by the author in question. For example, on the top board, there are all books that contain work A. Second from top, there are all books that contain work B, and so forth.
  
-For example, in our imaginal library, the shelf reserved for Abū Ḥayyān al-Tawḥīdī would have five different boards reserved for five different works by al-Tawḥidī, and it is one those boards on which the actual books sit.
+For example, in our imaginal library, the shelf reserved for Abū Ḥayyān al-Tawḥīdī would have five different boards reserved for five different works by al-Tawḥidī, and it is on one of those boards on which the actual books sit.
 
 Within the structure of the KITAB corpus, the shelf reserved for a particular author corresponds to the author-folder, and the boards reserved for the individual works written by that author correspond to the book-subfolders within the author-folder.
 
@@ -64,7 +64,7 @@ Whenever, in a physical library, we would be looking for the next-level organisa
 
 Several pieces of information are required to locate a file in our corpus: A date of death in the Hijri calendar; an author’s name; a book title; and information about which concrete version of a book we are talking about.
 
-The key element which integrates all of these pieces of information and ensures the necessary organisational consistency of our corpus, is the unique resource identifier (URI) (for details, see here). 
+The key element which integrates all of these pieces of information and ensures the necessary organisational consistency of our corpus, is the unique resource identifier (URI) (for details, see [here]({{ '/docs/openITI#uris--cts-like-folder-structure' | relative_url }})). 
 
 All files in our corpus are assigned such a URI which conforms to the following pattern: 
 
@@ -127,7 +127,7 @@ MuallifMajhul | Unknown author (date in URI will correspond to the period when w
 
 ## Metadata files.
 
-As has been indicated further [above]({{ '/corpus/about' | relative_url}}),the KITAB corpus does not contain plain text files, but also *.yml metadata files.
+As has been indicated further [above]({{ '/corpus/about' | relative_url}}),the KITAB corpus does not only contain plain text files, but also *.yml metadata files.
 
 There are three kinds of metadata files in our corpus that reflect the three types of identifiers contained in our URIs:
 
@@ -163,7 +163,7 @@ This second option is preferable as it allows finding files in our corpus withou
  
 KITAB’s metadata app allows searching for each of the components of a URI separately (i.e., the AuthorID, the BookID, and the VersionID).
 
-Furthermore, as we do have Arabic metadata for many (but not all) files in our corpus, users can also search for texts in Arabic.
+Furthermore, as we do have metadata written in Arabic for many (but not all) files in our corpus (for example, the Arabic book titles of the original editions), users can also search for texts in Arabic.
 
 The metadata app allows accessing text files directly by clicking on the versionID column of the app.
 
@@ -176,7 +176,7 @@ For searches using transliterated forms, please follow the following rules:
 
 * The Library of Congress scheme is followed in its simplified version, omitting all diacritics so that only ASCII characters are used. Two most problematic Arabic letters are dealt with in the following manner: 1) hamzas are omitted to avoid using non-letter characters; 2) ʿayns are transliterated with c, which is capitalized when appropriate (ʿAlī > Cali; Aʿyān al-shīʿaŧ > AcyanShica).
 * (إبن) as part of a name is written in full and capitalized: ʿAlī b. Abī Ṭālib > CaliIbnAbiTalib.
-* Although an effort was made to use šuhras for AuthorIDs, in cases when it was not possible, the following formula was followed: Ibn + Ism Abī-hi + Nisbaŧ (these were the onomastic elements most commonly available in the metadata).
+* Although an effort was made to use shuhras for AuthorIDs, in cases when it was not possible, the following formula was followed: Ibn + Ism Abī-hi + Nisbaŧ (these were the onomastic elements most commonly available in the metadata).
 * The word kitāb is dropped from the titles, unless it is the major keyword, like in the case of, for example, Sibawayhi’s Kitāb, whose unique identifier is 0180Sibawayh.KitabSibawayh.
 * Definite articles are dropped everywhere: Tārīkh al-islām > TarikhIslam.
 * Parts of the same entities are written together, in camelcase. In other words, there are no spaces between words, but each word is capitalized: al-Nāsikh wa-l-Mansūkh > NasikhWaMansukh.
