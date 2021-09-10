@@ -10,6 +10,7 @@ categories:
   - 
 tags:
   - 
+image: "/images/old_posts/image.png"
 ---
 
 

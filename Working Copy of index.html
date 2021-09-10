@@ -41,92 +41,55 @@ corpus_search:
 <!Code block for the latest blogs - do not change!>
 
 
-<h1> Our latest blogs </h1>
-<br>  
-<div class = "feature__wrapper">
-
+<h1> Our latest blogs </h1>  
+<div class="feature__wrapper">
     
   
-<div class = "grid__item">
-     <article class = "archive__item">
-      
+    <div class="feature__item">
+     <div class = "archive__item">
+      <div class = "archive__item-body">
       {% assign latest_post = site.posts[0]%}
-      <div class = "archive__item-teaser">
-      {% if latest_post.image %}
-      <img src = {{ latest_post.image }} </img>
-      {% else %}
-      <img src = "/images/kitab/mesa.jpg" > </img>
-      {% endif %}
+      <h2 class = "archive__item-title">{{ latest_post.title }} </h2>
+      <div class = "archive__item-excerpt">
+      <p> {{latest_post.excerpt | markdownify | strip_html | truncate: 160}} <b><a href="{{ latest_post.url }}">read more</a></b> </p>
+      <p> {{ latest_post.date | date: '%B %d, %Y' }} </p>
       </div>
-      <h2 class = "archive__item-title no_toc">{{ latest_post.title | truncate: 50 }} </h2> <a href="{{ latest_post.url }}">read more</a></b>
       
+      </div>
+      </div>
       
-      
-      </article>
-      
-      
-</div>
+      </div>
 
-<div class = "grid__item">
-
-     <article class = "archive__item">
-      
+<div class="feature__item">
+     <div class = "archive__item">
+      <div class = "archive__item-body">
       {% assign latest_post = site.posts[1]%}
-      <div class = "archive__item-teaser">
-      {% if latest_post.image %}
-      <img src = {{ latest_post.image }} </img>
-      {% else %}
-      <img src = "/images/kitab/mesa.jpg" > </img>
-      {% endif %}
+      <img 
+      <h2 class = "archive__item-title">{{ latest_post.title }} </h2>
+      <div class = "archive__item-excerpt">
+      <p> {{latest_post.excerpt | markdownify | strip_html | truncate: 160}} <b><a href="{{ latest_post.url }}">read more</a></b> </p>
+      <p> {{ latest_post.date | date: '%B %d, %Y' }} </p>
       </div>
-      <h2 class = "archive__item-title no_toc"> {{ latest_post.title | truncate: 50 }}</h2><a href="{{ latest_post.url }}">read more</a>
       
-      
-      
-      </article>
-      
-     
-</div>
-
-<div class = "grid__item">
-
-     <article class = "archive__item">
-      
-      {% assign latest_post = site.posts[2]%}
-      <div class = "archive__item-teaser">
-      {% if latest_post.image %}
-      <img src = {{ latest_post.image }} </img>
-      {% else %}
-      <img src = "/images/kitab/mesa.jpg" > </img>
-      {% endif %}
       </div>
-      <h2 class = "archive__item-title no_toc"> {{ latest_post.title | truncate: 50 }}</h2><a href="{{ latest_post.url }}">read more</a>
-      
-      
-      
-      </article>
-      
-     
-</div>
-
-<div class = "grid__item">
-
-     <article class = "archive__item">
-      
-      <div class = "archive__item-teaser">
-      <img src = "/images/kitab/mesa.jpg" > </img>
       </div>
-      <h2 class = "archive__item-title no_toc">Read more blogs </h2>
+      
+      </div>
+
+<div class="feature__item">
+     <div class = "archive__item">
+      <div class = "archive__item-body">
+      
+      <h2 class = "archive__item-title">Read more blogs </h2>
       <div class = "archive__item-excerpt">
       <p> Read more blogs about KITAB's corpus, methods and data </p>
 
       </div>
       <p> <a href="{{ '/blogs' | relative_url }}" class="btn btn--primary">Read other blogs</a></p>
+      </div>
+      </div>
       
-      </article>
-      
-
-</div>
+      </div>
 
 </div>
 
