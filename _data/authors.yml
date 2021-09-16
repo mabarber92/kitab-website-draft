@@ -285,7 +285,7 @@ abdul_rahman_azzam:
   twitter          :
 karen_bauer:
   name             : "Karen Bauer"
-  avatar           : # path of avatar image, e.g. ""
+  avatar           : "/images/kitab/karen_bauer_200px.jpg"
   bio              : "Dr. Bauer's research centres on the Qurʾan and its reception history, the history of emotions in Islam, and gender in Islamic history and thought. Although she is mostly known as a medievalist, she occasionally ventures into modern territory, such as when she interviewed religious scholars in Iran and Syria for her book *Gender Hierarchy in the Qur’an: Medieval Interpretations, Modern Responses* (Cambridge University Press, 2015), which detailed the history of tafsīr through interpretations of verses on women, and was runner up for the BKFS Book Prize 2016."
   location         : 
   email            :
