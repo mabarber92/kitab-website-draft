@@ -7,7 +7,7 @@ header:
 title:		"Get Involved"
 layout:		single
 sidebar:
-  nav: "team"
+  nav: "about"
 permalink: /about/get-involved
 ---
 
@@ -23,4 +23,6 @@ All of our collaborations are founded on the principals of data sharing. For exa
 
 Do you think you could help KITAB's work? We are excited to hear from you.
 
-[Get in touch!](""){: .btn .btn--primary .btn--large .align-center}
+<iframe width="640px" height= "800px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=KiXUpfkCYE6W8Jczuq5JGR7w56A9IkBIgM-9n5uv1wdUMlRYUVRCSVJWTlhOODlDNEtQNzBST05CWS4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+

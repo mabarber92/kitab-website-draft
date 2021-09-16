@@ -9,7 +9,7 @@ author:		Maxim Romanov
 layout:		single
 author_profile: true
 sidebar:
-  nav: "team"
+  nav: "about"
 permalink: /about/
 ---
 

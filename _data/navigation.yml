@@ -12,17 +12,17 @@ main:
     url: /docs/openITI
 
 
-team:
+about:
   - title: About
     children:
       - title: "Message from the PI"
         url: /about/
       - title: "The KITABIs"
         url: /about/kitabis
-      - title: "Collaborations"
-        url: /about/collaborations
       - title: "Our Projects"
         url: /about/our-projects
+      - title: "Collaborations"
+        url: /about/collaborations
       - title: "Funders"
         url: /about/funders
       - title: "Get involved"
@@ -113,7 +113,7 @@ docs:
       - title: "Guides for OpenITI"
         url: /docs/openITI/
       - title: "KITAB Datasets"
-        url: 
+        url: /docs/apps/
 
 
 

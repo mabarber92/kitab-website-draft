@@ -9,6 +9,13 @@ title:		"Collaborations"
 layout:		single
 
 sidebar:
-  nav: "team"
+  nav: "about"
 permalink: /about/collaborations
 ---
+
+### [The Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project (OpenITI AOCP), University of Maryland](https://mith.umd.edu/research/openiti-aocp/)
+
+### Courts and Canons Project, Harvard
+
+### [Invisible East, University of Oxford](https://invisibleeast.web.ox.ac.uk/home#/)
+

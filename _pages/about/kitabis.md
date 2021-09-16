@@ -9,7 +9,7 @@ layout:		single
 
 title:		"The KITABIs"
 sidebar:
-  nav: "team"
+  nav: "about"
 toc : true
 toc_sticky : true
 

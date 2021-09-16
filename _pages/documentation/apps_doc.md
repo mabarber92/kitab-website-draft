@@ -11,4 +11,4 @@ sidebar:
 permalink: /docs/apps
 ---
 
-### Describing how to use the various applications...
+As we start to release our data we will begin to publish guides on how to use it here. Check back here as we publish our data sets.

@@ -7,7 +7,7 @@ header:
 title:		"Funders"
 layout:		single
 sidebar:
-  nav: "team"
+  nav: "about"
 permalink: /about/funders
 ---
 
