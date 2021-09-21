@@ -29,7 +29,7 @@ coming_soon:
     alt: "placeholder image 2"
     title: "Coming soon..."
     excerpt: 'Interested in exploring our other datasets? KITAB will be releasing more data and applications soon.<br><br> Subscribe to be notified when new applications are added to the portal.'
-    url: "#test-link"
+    url: "/subscribe"
     btn_label: "Subscribe for updates"
     btn_class: "btn--primary"
 

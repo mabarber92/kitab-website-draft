@@ -23,7 +23,7 @@ Datasets evolve organically as the team works and researches. If we during our r
 
 We plan to release our datasets to the public soon. Subscribe to our mailing list to be notified when we release data.
 
-<a href='' class='btn btn--primary align-center' >Subscribe for updates</a>
+<a href='/subscribe' class='btn btn--primary align-center' >Subscribe for updates</a>
 {% endcapture %}
 
 <div class="notice--warning">

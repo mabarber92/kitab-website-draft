@@ -38,7 +38,7 @@ mathew_barber:
   twitter          :
 peter_verkinderen:
   name             : "Peter Verkinderen"
-  avatar           : # path of avatar image, e.g. ""
+  avatar           : "/images/kitab/Peter-1.jpg"
   bio              : "Peter is a postdoctoral research fellow at the KITAB Project working on the central Islamic lands. His main expertise is in the geographical and historiographical literature of the 3rd-5th/9th-11th C. He is also working with KITAB in the development of the OpenITI corpus and tools for analyzing and visualizing textual data. "
   location         :
   email            :
@@ -95,7 +95,7 @@ claire_savina:
   twitter          :
 anjum_alam:
   name             : "Anjum Alam"
-  avatar           : # path of avatar image, e.g. ""
+  avatar           : "/images/kitab/Anjum_Alam.jpg"
   bio              : 
   location         :
   email            :
@@ -171,7 +171,7 @@ david_smith:
   twitter          :
 lorenz_nigst:
   name             : "Lorenz Nigst"
-  avatar           : # path of avatar image, e.g. ""
+  avatar           : "/images/kitab/Lorenz.jpg"
   bio              : "Lorenz Nigst is an Arabist and a research associate at the KITAB Project. He is responsible for the management of the KITAB corpus."
   location         :
   email            :
@@ -228,8 +228,8 @@ thomas_benfey:
   twitter          :
 ryan_muther:
   name             : "Ryan Muther"
-  avatar           : # path of avatar image, e.g. ""
-  bio              : 
+  avatar           : "/images/kitab/Copie-de-ryan-muther.jpg"
+  bio              : "Ryan Muther is a PhD student in the Computer Science program at Northeastern University. He is interested in applying techniques from natural language processing to archival data to address questions in disciplines outside of computer science."
   location         :
   email            :
   uri              :
