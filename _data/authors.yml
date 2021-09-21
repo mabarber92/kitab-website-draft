@@ -1,6 +1,6 @@
 sarah_savant:
   name             : "Sarah Savant"
-  avatar           : # path of avatar image, e.g. ""
+  avatar           : "/images/kitab/sarah_savant.jpg"
   bio              : "Sarah Bowen Savant is the Principle Investigator of the KITAB project. She is preparing a book, entitled, A Cultural History of the Arabic Book that explores the many ways that writers reused earlier texts to create new ones in the period spanning from 700-1500 CE."
   location         :
   email            :
@@ -57,7 +57,7 @@ peter_verkinderen:
   twitter          :
 aslisho_qurboniev:
   name             : "Aslisho Qurboniev"
-  avatar           : # path of avatar image, e.g. ""
+  avatar           : "/images/kitab/Aslisho_200px.jpg"
   bio              : "Aslisho is a postdoctoral research fellow at the KITAB Project working on the Islamic West. His current research focuses on the scholarly communities of the Islamic Maghrib and Khurasan down to the fourth-tenth centuries."
   location         :
   email            :
@@ -95,8 +95,8 @@ claire_savina:
   twitter          :
 anjum_alam:
   name             : "Anjum Alam"
-  avatar           : "/images/kitab/Anjum_Alam.jpg"
-  bio              : 
+  avatar           : "/images/kitab/Anjum-Alam.jpg"
+  bio              : "Anjum Alam is the Project Manager for KITAB​. He has done his MBA in Human Resource Development and holds an undergraduate degree in Information Technology. Besid​es, ​he is also a certified Project Man​agem​ent Professional using waterfall and agile methodologies."
   location         :
   email            :
   uri              :
