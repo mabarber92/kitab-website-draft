@@ -132,5 +132,6 @@ for root, dirs, files in os.walk(docx_in, topdown=False):
 ## ADD REGEX FOR FIXING FN
 
 """ FOOTENOTE REGEX: 1. \[(\d{1,2}\])[^(], [^\1 2. (\n\[\^\d{1,2}\])[^(] , \1: """
-""" Table REGEX removing lines: ((\|.*)+\|)\r , \1 """
+""" Table REGEX removing lines: ((\|.*)+\|)\r\r , \1\n """
+""" Wrong heading regex: (.*\r)\r\n.*-{3,40} , ## \1
 

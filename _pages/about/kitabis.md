@@ -1,9 +1,9 @@
 ---
 excerpt:	""
 header:
-  overlay_image: /images/covers/kitab2.jpg
-  overlay_filter: rgba(0, 0, 0, 0.45)
-  caption: "**Photo credit**: From Book three of 'Nihāyat al-su’l' which gives instructions on using lances. Dated 773/1371 (Add. MS. 18866, f. 113r)"
+  overlay_image: /images/covers/banner_about2.jpg
+  overlay_filter: 0.1
+  caption: "Scholars study together (Image from a manuscript of al-Hariri's *Maqamat*, courtesy of the [BNF](https://gallica.bnf.fr/ark:/12148/btv1b8422962f/f14.item.r=maqamat.zoom#))"
 author: "sarah_savant"
 layout:		single
 

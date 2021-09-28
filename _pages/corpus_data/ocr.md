@@ -1,8 +1,9 @@
 ---
 excerpt:	""
 header:
-  overlay_image: /images/covers/banner_corpus.png
+  overlay_image: /images/covers/banner_ocr.jpg
   overlay_filter: rgba(40, 99, 165, 0.45)
+  caption: "Escriptorium, an OCR and post-correction interface"
 title:		"Optical Character Recognition (OCR)"
 layout:		single
 sidebar:

@@ -1,8 +1,9 @@
 ---
 excerpt:	""
 header:
-  overlay_image: /images/covers/banner_data.png
+  overlay_image: /images/covers/banner_data2.jpg
   overlay_filter: rgba(40, 99, 165, 0.45)
+  caption: "An example of some pairwise text reuse data viewed in speadsheet software"
 title:		"About our data"
 layout:		single
 sidebar:

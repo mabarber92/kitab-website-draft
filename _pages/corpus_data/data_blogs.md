@@ -1,7 +1,8 @@
 ---
 header:
-  overlay_image: /images/covers/banner_data.png
+  overlay_image: /images/covers/banner_viz2.jpg
   overlay_filter: rgba(40, 99, 165, 0.45)
+  caption: "Two views of a prototype 'Circos' Visualisation"
 title: Blogs about our datasets
 layout: tag
 permalink: /data/blogs
