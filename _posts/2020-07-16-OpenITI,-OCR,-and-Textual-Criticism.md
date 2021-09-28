@@ -1,8 +1,10 @@
 ---
 image: "/images/old_blogs/2020-07-16-OpenITI,-OCR,-and-Textual-Criticism//media/image1.png"
 header:
-  image: 
-  caption: 
+  overlay_image: "/images/covers/banner_blog.jpg"
+  overlay_filter: 0.1
+  caption: "Gentile Bellini - Seated Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
+  show_overlay_excerpt: false 
 title: "OpenITI, OCR, and Textual Criticism"			
 author: david_smith		
 layout:		single

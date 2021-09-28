@@ -1,8 +1,10 @@
 ---
 image: "/images/kitab/mesa.jpg"
 header:
-  image: 
-  caption: 
+  overlay_image: "/images/covers/banner_blog.jpg"
+  overlay_filter: 0.1
+  caption: "Gentile Bellini - Seated Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
+  show_overlay_excerpt: false 
 title: "Arabic Pasts: Histories and Historiographies Research workshop (October 22-24, 2020 London)"			
 author: anjum_alam		
 layout:		single

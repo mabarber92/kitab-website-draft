@@ -1,8 +1,10 @@
 ---
 image: "/images/old_blogs/2020-12-11-Tracing-the-origins-of-a-historical-fragment-focused-on-the-Sāmānids//media/image1.png"
 header:
-  image: 
-  caption: 
+  overlay_image: "/images/covers/banner_blog.jpg"
+  overlay_filter: 0.1
+  caption: "Gentile Bellini - Seated Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
+  show_overlay_excerpt: false 
 title: "Tracing the origins of a historical fragment focused on the Sāmānids"			
 author: thomas_benfey		
 layout:		single

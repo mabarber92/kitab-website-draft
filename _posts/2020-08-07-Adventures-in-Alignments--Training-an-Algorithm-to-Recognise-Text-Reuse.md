@@ -1,8 +1,10 @@
 ---
 image: "/images/old_blogs/2020-08-07-Adventures-in-Alignments--Training-an-Algorithm-to-Recognise-Text-Reuse//media/image1.png"
 header:
-  image: 
-  caption: 
+  overlay_image: "/images/covers/banner_blog.jpg"
+  overlay_filter: 0.1
+  caption: "Gentile Bellini - Seated Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
+  show_overlay_excerpt: false 
 title: "Adventures in Alignments: Training an Algorithm to Recognise Text Reuse"			
 author: mathew_barber		
 layout:		single
