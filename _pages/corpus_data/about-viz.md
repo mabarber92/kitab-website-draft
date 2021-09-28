@@ -12,58 +12,33 @@ toc_sticky: true
 permalink: /data/viz
 
 ---
-
-KITAB's [datasets]({{ '/data' | relative_url }}) are often large and difficult to comprehend. KITAB is, therefore, working to develop and adapt vizualisations to help the team and other researchers understand the data. Where relevant we release code and PowerBI templates for our vizualisations enabling you to adapt them for your own research, whether or not you are using KITAB's data.
-
-There are a set of core vizualisations that we use routinely in our research and reference in our blogs and publications. This page is intended to help explain how those vizualisations work and how they should be interpretted. For detailed instructions on how to use the applications, please visit our [docs](). 
-
-**Please note:** This list of vizualisations and applications is being continually updated as we formalise and release our applications. If you are unsure about one of the vizualisations used in a publication or blog we recommend you return here.
-{: .notice--warning}
-
-To access and use our applications and vizualisations, please visit the [applications portal]({{ 'data/apps' | relative_url }}).
-
-## The pairwise text reuse vizualisation
-
-This application is designed for viewing text reuse between pairs of texts. Image 1 shows a screen grab from the main part of the visualisation.
-
+KITAB's [data sets]({{ '/data' | relative_url }}) are often large and difficult to comprehend. KITAB is, therefore, working to develop and adapt visualisations to help the team and other researchers understand the data. Where relevant we release code and Power BI templates for our visualisations, enabling you to adapt them for your own research, whether or not you are using KITAB's data.
+There is a set of core visualisations that we use routinely in our research and reference in our blog posts and publications. This page explains how those visualisations work and how they should be interpreted. For detailed instructions on how to use the applications, please visit our [docs]({{ "docs/openITI" | relative_url }}).
+**Please note:** This list of visualisations and applications is being continually updated as we formalise and release our applications. If you are unsure about any of the visualisations used in a publication or a blog post we recommend you return here.
+{: .notice--warning}
+To access and use our applications and visualisations, please visit the [applications portal]({{ 'data/apps' | relative_url }}).
+## The pairwise text reuse visualisation
+This application is designed for viewing text reuse between pairs of texts. Image 1 shows a screen grab from the main part of the visualisation.
+
 {% capture image1 %}
-[![Pairwise visualisation](/images/methods/pair-wise-Nujum-Kamil.png)](/images/methods/pair-wise-Nujum-Kamil.png)
-
-*Image 1. The pairwise vizualisation comparing Ibn Taghribirdi's Nujum (on the top) with Ibn al-Athir's Kamil (on the bottom)*.
-{% endcapture %}
-
+[![Pairwise visualisation](/images/methods/pair-wise-Nujum-Kamil.png)](/images/methods/pair-wise-Nujum-Kamil.png)
+Image 1: A pairwise visualisation comparing Ibn Taghribirdi's *Nujum* (on the top) with Ibn al-Athir's *Kamil* (on the bottom).
+{% endcapture %}
 <div class="notice--primary">
 {{ image1 | markdownify }}
-</div>
-
-This vizualisation layers a lot of types of data. Put simply, it represents each of the two works as a 300-words wide scroll where the top is on the left and the bottom on the right. Passages that are common to both works are highlighted in red. The yellow lines connect the common passages between the books. In the graphs on the top and the bottom, the works are divided into milestones (on text reuse and milestones, see our explanation of [passim]({{ '/methods/text-reuse#how-does-passim-work' }})). Thus, the top graph in image 1 shows Ibn Taghribirdi's *Nujum*, where 1 represents the first milestone in the book and 3745 represents the last milestone. The bottom graph in image 1 shows Ibn al-Athir's *Kamil* where 1 is the first milestone in the book and 4500 is the last. 
-
-Each of the red bars on the top and bottom graphs represents a milestone that contains text reuse. The height of each bar is determined by the postion of the reuse text in the milestone and its length, where the y-axis gives the position in words. For example, a bar that starts at 50 and ends 100 on the y axis, means that reuse occurs between word 50 and 100 of that milestone and that it the reuse is, therefore, 50-words long. 
-
-The yellow lines are then used to link the reused text. For example, circa milestone 700 of Ibn al-Athir's *Kamil* (the bottom graph) is reused in milestone 1 of Ibn Taghribirdi's *Nujum*. These yellow lines allow us to understand rearrangement of text. For example, in the case of image 1, we can see how the text is reused in almost entirely the same order, but condensed. As both works are chronicles, this is to be expected. 
-
-Were text to be rearranged, more lines would cross over each other. See, for example, image 2, which compares Tabari's *Taʾrikh* with Ibn Hanbal's *Musnad*. There we can see heavy reuse of the early parts of al-Tabari's work (the parts that cover the Prophet's life), but because the *Musnad* is not a chronological account, the text is rearranged and the lines crossover.
-
+</div>
+This visualisation layers many types of data. Put simply, it represents each of the two works as a scroll laid on its side, with the top on the left, the bottom on the right and each line containing 300 words (marked on the y-axis). Along the x-axis, each work is divided into milestones (on text reuse and milestones, see our explanation of the [passim algorithm]({{ '/methods/text-reuse#how-does-passim-work' }})). Thus, the top graph in image 1 shows Ibn Taghribirdi's (d. 1470) *Nujum*, and 1 represents the first milestone in the book while 3,745 represents the last milestone. The bottom graph in image 1 shows Ibn al-Athir's (d. 1234) *Kamil*; 1 is the first milestone in the book and 4,500 is the last.
+Text passages that are common to both works are highlighted in red. Each of the red bars in the top and bottom graphs represents a milestone that contains text reuse. The height of the bar is determined by the position and length of the reused text within the milestone. For example, a bar that starts at 50 and ends at 100 on the y axis means that the reuse occurs between word 50 and word 100 of that 300-word milestone and that it the reused passage is, therefore, fifty words long.
+The yellow lines link the reused passages in the two works. For example, text found around milestone 700 of Ibn al-Athir's *Kamil* (the bottom graph) is reused at milestone 1 of Ibn Taghribirdi's *Nujum*. The yellow lines allow us to understand rearrangement of the text. In the case of Image 1, we can see that the text is reused in almost the same order, but in condensed form. As both works are chronicles, this is to be expected.
+Had the text been rearranged, more lines would cross over each other. See, for example, Image 2, which compares al-Tabari's *Taʾrikh* with Ibn Hanbal's (d. 855) *Musnad*. There we can see heavy reuse of the early parts of al-Tabari's work (the parts that cover the Prophet's life) by Ibn Hanbal, but because the *Musnad* is not a chronological account, the text has been rearranged and the lines cross over.
 {% capture image2 %}
 [![Another pairwise visualisation](/images/methods/pair-wise-Tarikh-Musnad.png)](/images/methods/pair-wise-Tarikh-Musnad.png)
 
-*Image 2. The pairwise vizualisation comparing al-Tabari's Taʾrikh (on the top) with Ibn Hanbal's Musnad (on the bottom)*.
-{% endcapture %}
-
+Image 2: A pairwise visualisation comparing al-Tabari's *Taʾrikh* (on the top) with Ibn Hanbal's *Musnad* (on the bottom). {% endcapture %}
 <div class="notice--primary">
 {{ image2 | markdownify }}
 </div>
 
-We often provide screen captures of this vizualisation in our publications to help illustrate our discussions of book history. It is, however, a part of an interactive vizualisation. In the interactive visualisation, clicking on the yellow line linking the reuse will bring up the text of the relevant reuse and provide the context in the original two texts, allowing you to read and understand the particular reuse instance.
-
-## More explanations of our core vizualisations coming soon...
-
-Return here to see explanations of our new applications including:
-* The Corpus statistics application
-* The Corpus text reuse statistics application
-* The book-DNA explorer
-
-## Applications and vizualisations in development
-
-Find below our latest blogs on the development of vizualisations:
-
+We often provide screen captures of such visualisations in our publications to illustrate our discussions of book history. They are, however, part of an interactive visualisation. In the interactive visualisation, clicking on the yellow line linking the two passages will bring up the relevant text and provide the context in each of the two works, allowing you to read and understand the particular reuse instance.
+## More explanations of our core visualisations coming soon ...
+Return here to see explanations of our new applications, including* the corpus statistics application* the corpus text reuse statistics application* the book DNA explorer.

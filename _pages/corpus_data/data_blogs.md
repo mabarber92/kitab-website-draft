@@ -9,5 +9,4 @@ taxonomy: data
 sidebar:
   nav: "corpus"
 ---
-
-The team have written extensively about the different datasets. See our blogs on the subject.
+The team members have written extensively about the various data sets. See our blog posts on the subject.

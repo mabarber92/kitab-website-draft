@@ -127,5 +127,10 @@ for root, dirs, files in os.walk(docx_in, topdown=False):
             continue
 
 
+##!! ADD THIS REGEX SUB: "\[<u>(.*)</u>\]" TO GET RID OF DOUBLE UNDERLINES.
+## ADD LINES FOR THUMBNAILS
+## ADD REGEX FOR FIXING FN
 
+""" FOOTENOTE REGEX: 1. \[(\d{1,2}\])[^(], [^\1 2. (\n\[\^\d{1,2}\])[^(] , \1: """
+""" Table REGEX removing lines: ((\|.*)+\|)\r , \1 """
 

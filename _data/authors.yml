@@ -152,8 +152,8 @@ masoumeh_seydi:
   twitter          :
 david_smith:
   name             : "David Smith"
-  avatar           : # path of avatar image, e.g. ""
-  bio              : 
+  avatar           : "/images/kitab/david200px.jpg"
+  bio              : "David Smith is an associate professor in Northeastern University’s College of Computer and Information Science. He is a founding member of the NULab for Texts, Maps, and Networks (neu.edu/nulab), Northeastern’s center for research in the digital humanities and computational social sciences."
   location         :
   email            :
   uri              :
@@ -190,8 +190,8 @@ lorenz_nigst:
   twitter          :
 hamid_reza_hakimi:
   name             : "Hamid Reza Hakimi"
-  avatar           : # path of avatar image, e.g. ""
-  bio              : 
+  avatar           : "/images/kitab/Hamid-Reza-Hakimi.jpg"
+  bio              : "Hamid Reza Hakimi works as the annotator of Arabic texts in KITAB Project. Hamid’s general interest is in the social history of books, and specifically, he is interested in book production in the pre-modern Iranian world."
   location         :
   email            :
   uri              :
@@ -248,8 +248,7 @@ ryan_muther:
 sarah_savant_masoumeh_seydi:
   name             : "Sarah Savant and Masoumeh Seydi"
   avatar           : # path of avatar image, e.g. ""
-  bio              : 
-  location         :
+  bio              : "Sarah Bowen Savant is the Principle Investigator of the KITAB project. She is preparing a book, entitled, A Cultural History of the Arabic Book that explores the many ways that writers reused earlier texts to create new ones in the period spanning from 700-1500 CE.<br><br> Masoumeh Seydi is KITAB’s Digital Lead. Her work focuses on various computational methods  to retrieve, analyze, and visualize the geographical descriptions of premodern Arabic sources."
   email            :
   uri              :
   flickr           :
@@ -287,6 +286,63 @@ karen_bauer:
   name             : "Karen Bauer"
   avatar           : "/images/kitab/karen_bauer_200px.jpg"
   bio              : "Dr. Bauer's research centres on the Qurʾan and its reception history, the history of emotions in Islam, and gender in Islamic history and thought. Although she is mostly known as a medievalist, she occasionally ventures into modern territory, such as when she interviewed religious scholars in Iran and Syria for her book *Gender Hierarchy in the Qur’an: Medieval Interpretations, Modern Responses* (Cambridge University Press, 2015), which detailed the history of tafsīr through interpretations of verses on women, and was runner up for the BKFS Book Prize 2016."
+  location         : 
+  email            :
+  uri              :
+  flickr           :
+  facebook         :
+  github           :
+  google_plus      :
+  instagram        :
+  linkedin         :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  steam            :
+  tumblr           :
+  twitter          :
+maxim_romanov:
+  name             : "Maxim Romanov"
+  avatar           : "/images/kitab/maxim200px.jpg"
+  bio              : "Maxim Romanov’s research focuses on the social history of the premodern Islamic world, the history of the Arabic written tradition, and computational methods and approaches relevant for Islamicate studies."
+  location         : 
+  email            :
+  uri              :
+  flickr           :
+  facebook         :
+  github           :
+  google_plus      :
+  instagram        :
+  linkedin         :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  steam            :
+  tumblr           :
+  twitter          :
+sohail_merchant:
+  name             : "Sohail Merchant"
+  avatar           : "/images/kitab/sm200px-1.jpg"
+  bio              : "Sohail is responsible for managing the infrastructure and developing the application architecture for KITAB. He is currently working as the Lead Office 365 / SharePoint Analyst at the University of London. Prior to working at the University of London, he has worked with various organisations including the Institute of Ismaili Studies, Aga Khan University and University College London . where he has architect, managed and implemented various solutions and web applications. Sohail holds a Master of Science degree in Computing from London Metropolitan University and he is also a PRINCE2 Certified Practitioner and Microsoft Certified Solution Expert (MCSE)."
+  location         : 
+  email            :
+  uri              :
+  flickr           :
+  facebook         :
+  github           :
+  google_plus      :
+  instagram        :
+  linkedin         :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  steam            :
+  tumblr           :
+  twitter          :
+kevin_jaques:
+  name             : "Kevin Jaques"
+  avatar           : "/images/kitab/kevin200px.jpg"
+  bio              : "Kevin Jaques is an Associate Professor of Islamic Studies in the Department of Religious Studies at Indiana University. He is a specialist in classical Islamic biography, Islamic law, and theology as well as religious hermeneutics and comparative religions. He has written two books,  Authority, Conflict, and the Transmission of Diversity in Medieval Islamic Law (Brill, 2006) and Ibn Ḥajar al-ʿAsqalānī (Oxford, 2010), as well as numerous articles."
   location         : 
   email            :
   uri              :

@@ -51,7 +51,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true
 search                   : true
 search_full_content      : true
 search_provider          : # lunr (default), algolia, google
@@ -96,8 +96,8 @@ analytics:
 author:
   name             : "KITAB"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : ""
+  location         :
   email            :
   links:
     - label: "Email"
@@ -122,24 +122,16 @@ author:
 # Site Footer
 footer:
   links:
-    - # label: "AKU-ISMC"
-      # icon: "/assets/images/logo-small-2.png"
-      # url: "https://www.aku.edu/ismc/Pages/home.aspx"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
+    - label: "OpenITI GitHub"
       icon: "fab fa-fw fa-github"
+      url: "https://github.com/OPENITI"
+    - label: "KITAB Github"
+      icon: "fab fa-fw fa-github-square"
+      url: "https://github.com/kitab-project-org"
+    - # label: "Twitter"
+      # icon: "fab fa-fw fa-twitter-square"
       # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+
 
 
 # Reading Files
@@ -280,3 +272,4 @@ defaults:
       comments: # true
       share: true
       related: true
+      show_date: true

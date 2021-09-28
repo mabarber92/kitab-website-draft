@@ -36,3 +36,6 @@ Using traditional and digital methods, this volume co-written by the KITAB team 
 
 This monograph sets an agenda for the study of text reuse in Arabic and Islamicate languages. It provides a typology of text reuse and a survey of KITAB’s data, documenting thousands of relationships across a corpus of about 2 billion words. Based on case studies, the author delves into authorial practices that involved recycling in Iraq, Syria and Egypt and that yielded new written forms. The author’s final argument centres on the need to reconsider the very concept of “the book” in the period.
 
+### Maxim Romanov, *A Digital Humanities for Arabic and Islamic Studies*
+
+This book presents Digital Humanities as the natural development of the history of our engagement with information and argues for the necessity of embracing Digital Humanities as the critical catalyst for completing the digital turn and taking the field of Arabic and Islamic studies into the 21st century.
