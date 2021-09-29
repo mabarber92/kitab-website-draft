@@ -1,7 +1,8 @@
 ---
 header:
-  overlay_image: /images/covers/banner_methods.png
-  overlay_filter: rgba(40, 99, 165, 0.60)
+  overlay_image: /images/covers/banner_dispersed.jpg
+  overlay_filter: 0.1
+  caption: "M. J. de Goeje's manuscript *stemma* from his introduction to al-Tabari's *Taʾrikh* (1879)"
 title: Lost/Dispersed texts
 layout: tag
 permalink: /methods/dispersed-texts

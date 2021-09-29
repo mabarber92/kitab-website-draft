@@ -3,6 +3,7 @@ excerpt:	""
 header:
   overlay_image: /images/covers/banner_methods.png
   overlay_filter: rgba(40, 99, 165, 0.60)
+  caption: "An example of an OpenITI text with tags for the beginnings and ends of *isnad*s"
   
 title:		"Introduction to our methods"
 layout:		single

@@ -1,8 +1,9 @@
 ---
 excerpt:	""
 header:
-  overlay_image: /images/covers/banner_methods.png
+  overlay_image: /images/covers/banner_reuseplot.png
   overlay_filter: rgba(40, 99, 165, 0.60)
+  caption: "A plot showing how text reuse (in number of words matched) fluctuates across time (in AH years)."
 title:		"Text Reuse"
 
 layout:		single

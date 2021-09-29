@@ -3,6 +3,7 @@ layout: splash
 header:
   overlay_image: /images/covers/banner_data.png
   overlay_filter: rgba(40, 99, 165, 0.45)
+  caption: "A visualisation comparing text reuse between a pair of works."
   actions:
     - label: "Learn more about the Corpus and Data"
       url: /corpus

@@ -1,8 +1,9 @@
 ---
 excerpt:	""
 header:
-  overlay_image: /images/covers/banner_data.png
-  overlay_filter: rgba(40, 99, 165, 0.45)
+  overlay_image: /images/covers/banner_tok_length_B1_instances.png
+  overlay_filter: rgba(40, 99, 165, 0.60)
+  caption: "A plot showing book length against number of text reuse instances."
 title:		"About the Corpus and Our Data"
 layout:		single
 sidebar:

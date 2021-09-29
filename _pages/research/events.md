@@ -1,8 +1,8 @@
 ---
 header:
-  overlay_image: /images/covers/kitab2.jpg
-  overlay_filter: rgba(0, 0, 0, 0.45)
-  caption: "**Photo credit**: From Book three of 'Nihāyat al-su’l' which gives instructions on using lances. Dated 773/1371 (Add. MS. 18866, f. 113r)"
+  overlay_image: /images/covers/banner_events.jpg
+  overlay_filter: 0.1
+  caption: "A photo of a paper given at Arabic Pasts"
 title: Events
 layout: tag
 permalink: /research/events

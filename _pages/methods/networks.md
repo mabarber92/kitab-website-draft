@@ -1,8 +1,9 @@
 ---
 excerpt:	""
 header:
-  overlay_image: /images/covers/banner_methods.png
+  overlay_image: /images/covers/banner_clusters.jpg
   overlay_filter: rgba(40, 99, 165, 0.60)
+  caption: "A prototype visualisation showing text reuse clusters for 8 milestones of al-Tabari's *Taʾrikh* relating to Abbasid history"
 title:		"Network Analysis"
 
 layout:		single

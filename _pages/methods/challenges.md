@@ -1,8 +1,9 @@
 ---
 excerpt:	""
 header:
-  overlay_image: /images/covers/banner_methods.png
+  overlay_image: /images/covers/banner_challenges.jpg
   overlay_filter: rgba(40, 99, 165, 0.60)
+  caption: "An example of named entities evaluation for names in *isnad*s"
 title:		"Challenges"
 
 layout:		single

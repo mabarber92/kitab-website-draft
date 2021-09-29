@@ -1,8 +1,9 @@
 ---
 excerpt:	""
 header:
-  overlay_image: /images/covers/banner_methods.png
+  overlay_image: /images/covers/banner_stylo.jpg
   overlay_filter: rgba(40, 99, 165, 0.60)
+  caption: "A network generated from stylometric data"
 title:		"Stylometry"
 
 layout:		single

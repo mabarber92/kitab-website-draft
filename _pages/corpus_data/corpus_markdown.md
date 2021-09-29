@@ -2,7 +2,7 @@
 excerpt:	""
 header:
   overlay_image: /images/covers/banner_markdown.jpg
-  overlay_filter: rgba(40, 99, 165, 0.1)
+  overlay_filter: rgba(40, 99, 165, 0.6)
   caption: "Al-Nuwayri's *Nihaya* annotated in OpenITI mARkdown and open in EditPad Pro"
 title:		"mARkdown"
 layout:		single

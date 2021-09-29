@@ -1,7 +1,8 @@
 ---
 header:
-  overlay_image: /images/covers/banner_methods.png
+  overlay_image: /images/covers/banner_citation.jpg
   overlay_filter: rgba(40, 99, 165, 0.60)
+  caption: "A 'tube map' style visualisation showing how *isnad*s fork in Ibn ʿAsakir's *Taʾrikh Madinat Dimashq*."
 title: Citation Practices
 layout: tag
 permalink: /methods/citation
